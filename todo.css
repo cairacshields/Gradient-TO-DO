@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+}
+body{
+	background: linear-gradient(to right, #06D6A0, #EDA2F2);
+}
+.center{
+	margin-top: 50px;
+	max-width: 800px;
+}
+h1{
+	text-align: center;
+	background-color: #06D6A0;
+	border:2px solid #06D6A0;
+	border-radius: 5px;
+	color: white;
+	margin-bottom: 0;
+}
+
+#plus{
+	float: right;
+	margin-right: 10px;
+}
+
+#textInput{
+	width: 100%;
+	height: 3em;
+	border-radius: 5px;
+}
+/*
+Below changes the highlight color on the input box 
+*/
+#textInput:focus{
+	border-color: #06D6A0;
+	outline: none;
+	box-shadow: 0 0 10px #06D6A0;
+}
+#unordered{
+	width: 100%;
+
+}
+
+.strikeThrough{
+	text-decoration: line-through;
+}
+
+.onHover{
+	background-color: #23F0C7;
+	color: white;
+}
+

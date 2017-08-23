@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo List</title>
+	<meta charset="utf-8">
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Animate.css link, ** Be sure to include file in directory ** 
+	<link rel="stylesheet" href="animate.css">
+-->
+<link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+
+
+	<!-- The basic point of this application is to create a responsive, interactive toDo list -->
+
+	<div class="container center">
+		
+		<!--- H1 -->
+		<h1>TO-DO LIST <span id="plus"><i class="fa fa-plus" aria-hidden="true"></i></span></h1>
+
+		<!-- Text input to add items -->
+		<input id="textInput" type="text" name="item" placeholder="Add new item">
+
+		<!-- UL to display new and existing items --> 
+		<ul id="unordered" class="list-group">
+			<li class="list-group-item"><span><i class="fa fa-trash-o" aria-hidden="true"></i></span> Water Plants</li>
+			<li class="list-group-item"><span><i class="fa fa-trash-o" aria-hidden="true"></i></span> Eat Bacon</li>
+		</ul>
+
+	</div>
+
+
+
+
+	<!-- jQuery CDN -->
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<!-- Font Awesome CDN -->
+	<script src="https://use.fontawesome.com/1f4c6f61c4.js"></script>
+	<!-- BootStrap JS CDN -->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Animate minified JS
+	<script src="anime.min.js"></script>
+-->
+<!-- Project based JS file -->
+<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
